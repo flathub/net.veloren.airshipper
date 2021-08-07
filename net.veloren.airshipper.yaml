@@ -29,17 +29,11 @@ modules:
       - cargo --offline build --bin airshipper --release 
       - install -D -m 755 ./target/release/airshipper -t /app/bin/
     post-install:
-      - install -D net.veloren.airshipper.desktop -t /app/share/applications/
-      - install -D net.veloren.airshipper.png -t /app/share/icons/hicolor/256x256/apps/
-      - install -D net.veloren.airshipper.metainfo.xml -t /app/share/metainfo/
+      - install -D client/assets/net.veloren.airshipper.desktop -t /app/share/applications/
+      - install -D client/assets/net.veloren.airshipper.png -t /app/share/icons/hicolor/256x256/apps/
+      - install -D client/assets/net.veloren.airshipper.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: archive
-        url: https://github.com/Songtronix/Airshipper/archive/refs/tags/v0.4.2.tar.gz
-        sha256: a2a643f3a544e4689988233acf3152f22f09b982790e0a6d90f049589eaed87f
+        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.5.0.tar.gz
+        sha256: 355d339e3b8b4960a987d027ecd5a9de8adcddb607ceda47bc6ff7bdb76851d4
       - generated-sources.json
-      - type: file
-        path: net.veloren.airshipper.png
-      - type: file
-        path: net.veloren.airshipper.metainfo.xml
-      - type: file
-        path: net.veloren.airshipper.desktop
