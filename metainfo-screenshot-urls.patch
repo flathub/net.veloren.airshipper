@@ -1,0 +1,25 @@
+diff --git a/client/assets/net.veloren.airshipper.metainfo.xml b/client/assets/net.veloren.airshipper.metainfo.xml
+index e9e41d2..9f84a7b 100644
+--- a/client/assets/net.veloren.airshipper.metainfo.xml
++++ b/client/assets/net.veloren.airshipper.metainfo.xml
+@@ -38,16 +38,16 @@
+   <launchable type="desktop-id">net.veloren.airshipper.desktop</launchable>
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://camo.githubusercontent.com/71dfc8bb095129c57a7d2c29ff7d50bba4c91e67fef84c2e6ef93be7efb1e02a/68747470733a2f2f7777772e736f6e6774726f6e69782e636f6d2f616972736869707065722d302e342e302e676966</image>
++      <image>https://veloren.net/processed_images/72467bafa0b4826f00.jpg</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://veloren.net/screenshot1.png</image>
++      <image>https://veloren.net/processed_images/92fe6d5b53166d5600.jpg</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://veloren.net/screenshot3.png</image>
++      <image>https://veloren.net/processed_images/dea13f8adf85b3d400.jpg</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://veloren.net/screenshot4.png</image>
++      <image>https://veloren.net/processed_images/39dd939dc473ac9800.jpg</image>
+     </screenshot>
+   </screenshots>
+ 
