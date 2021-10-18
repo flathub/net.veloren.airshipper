@@ -34,6 +34,8 @@ modules:
       - install -D client/assets/net.veloren.airshipper.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: archive
-        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.5.0.tar.gz
-        sha256: 355d339e3b8b4960a987d027ecd5a9de8adcddb607ceda47bc6ff7bdb76851d4
+        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.6.0.tar.gz
+        sha256: d5d6975c511810398f1deb60bbb81ee02848f5c01e0da8e1e658dcfbc5a8df46
       - generated-sources.json
+      - type: patch
+        path: metainfo-screenshot-urls.patch
