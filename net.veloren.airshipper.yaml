@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions : [
-  org.freedesktop.Sdk.Extension.rust-nightly
+  org.freedesktop.Sdk.Extension.rust-stable
 ]
 command: airshipper
 finish-args:
@@ -14,7 +14,7 @@ finish-args:
   - --share=ipc
   - --device=dri
 build-options : {
-  append-path : "/usr/lib/sdk/rust-nightly/bin",
+  append-path : "/usr/lib/sdk/rust-stable/bin",
   env : {
     "CARGO_HOME" : "/run/build/airshipper/cargo",
     "RUST_BACKTRACE" : "1"
