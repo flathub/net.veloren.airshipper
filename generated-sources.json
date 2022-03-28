@@ -27,6 +27,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/addr2line/addr2line-0.16.0.crate",
+        "sha256": "3e61f2b7f93d2c7d2b08263acaa4a363b3e276806c68af6134c44f523bf1aacd",
+        "dest": "cargo/vendor",
+        "dest-filename": "addr2line-0.16.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%223e61f2b7f93d2c7d2b08263acaa4a363b3e276806c68af6134c44f523bf1aacd%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/addr2line-0.16.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/adler/adler-1.0.2.crate",
         "sha256": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
         "dest": "cargo/vendor",
@@ -114,6 +127,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22072df7202e63b127ab55acfe16ce97013d5b97bf160489336d3f1840fd78e99e%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/approx-0.5.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/arc-swap/arc-swap-1.5.0.crate",
+        "sha256": "c5d78ce20460b82d3fa150275ed9d55e21064fc7951177baacf86a145c4a4b1f",
+        "dest": "cargo/vendor",
+        "dest-filename": "arc-swap-1.5.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22c5d78ce20460b82d3fa150275ed9d55e21064fc7951177baacf86a145c4a4b1f%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/arc-swap-1.5.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -235,6 +261,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/backtrace/backtrace-0.3.61.crate",
+        "sha256": "e7a905d892734eea339e896738c14b9afce22b5318f64b951e70bf3844419b01",
+        "dest": "cargo/vendor",
+        "dest-filename": "backtrace-0.3.61.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22e7a905d892734eea339e896738c14b9afce22b5318f64b951e70bf3844419b01%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/backtrace-0.3.61",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/base-x/base-x-0.2.8.crate",
         "sha256": "a4521f3e3d031370679b3b140beb36dfe4801b09ac77e30c61941f97df3ef28b",
         "dest": "cargo/vendor",
@@ -244,6 +283,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22a4521f3e3d031370679b3b140beb36dfe4801b09ac77e30c61941f97df3ef28b%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/base-x-0.2.8",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/base64/base64-0.12.3.crate",
+        "sha256": "3441f0f7b02788e948e47f457ca01f1d7e6d92c693bc132c22b087d3141c03ff",
+        "dest": "cargo/vendor",
+        "dest-filename": "base64-0.12.3.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%223441f0f7b02788e948e47f457ca01f1d7e6d92c693bc132c22b087d3141c03ff%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/base64-0.12.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1236,6 +1288,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/doc-comment/doc-comment-0.3.3.crate",
+        "sha256": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "dest": "cargo/vendor",
+        "dest-filename": "doc-comment-0.3.3.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/doc-comment-0.3.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/dodrio/dodrio-0.2.0.crate",
         "sha256": "b7593dfc68e57dc1d058ada0f151ba07f4b05183c4da4c4df8ff651a81ef0fab",
         "dest": "cargo/vendor",
@@ -1678,6 +1743,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/gimli/gimli-0.25.0.crate",
+        "sha256": "f0a01e0497841a3b2db4f8afa483cce65f7e96a3498bd6c541734792aeac8fe7",
+        "dest": "cargo/vendor",
+        "dest-filename": "gimli-0.25.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22f0a01e0497841a3b2db4f8afa483cce65f7e96a3498bd6c541734792aeac8fe7%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/gimli-0.25.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/glam/glam-0.10.2.crate",
         "sha256": "579160312273c954cc51bd440f059dde741029ac8daf8c84fece76cb77f62c15",
         "dest": "cargo/vendor",
@@ -2002,10 +2080,22 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "file",
+        "url": "https://static.crates.io/crates/hyperx/hyperx-1.4.0.crate",
+        "sha256": "5617e92fc2f2501c3e2bc6ce547cad841adba2bae5b921c7e52510beca6d084c",
+        "dest": "cargo/vendor",
+        "dest-filename": "hyperx-1.4.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%225617e92fc2f2501c3e2bc6ce547cad841adba2bae5b921c7e52510beca6d084c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/hyperx-1.4.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced"
     },
     {
@@ -2015,10 +2105,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_core"
     },
     {
@@ -2036,10 +2125,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_futures"
     },
     {
@@ -2057,10 +2145,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_graphics"
     },
     {
@@ -2078,10 +2165,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_native"
     },
     {
@@ -2099,10 +2185,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_style"
     },
     {
@@ -2120,10 +2205,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_web"
     },
     {
@@ -2141,10 +2225,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_wgpu"
     },
     {
@@ -2162,10 +2245,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hecrj/iced/tar.gz/2d65621a3b680457e689b93c800e74f726ffc175",
-        "sha256": "364658b45015addd7bad090c322514466d23422dac5090f5c8b7ac7240057404",
+        "type": "git",
+        "url": "https://github.com/hecrj/iced",
+        "commit": "2d65621a3b680457e689b93c800e74f726ffc175",
         "dest": "cargo/vendor/iced_winit"
     },
     {
@@ -2366,6 +2448,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/jsonwebtoken/jsonwebtoken-7.2.0.crate",
+        "sha256": "afabcc15e437a6484fc4f12d0fd63068fe457bf93f1c148d3d9649c60b103f32",
+        "dest": "cargo/vendor",
+        "dest-filename": "jsonwebtoken-7.2.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22afabcc15e437a6484fc4f12d0fd63068fe457bf93f1c148d3d9649c60b103f32%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/jsonwebtoken-7.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/khronos-egl/khronos-egl-4.1.0.crate",
         "sha256": "8c2352bd1d0bceb871cb9d40f24360c8133c11d7486b68b5381c1dd1a32015e3",
         "dest": "cargo/vendor",
@@ -2375,6 +2470,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%228c2352bd1d0bceb871cb9d40f24360c8133c11d7486b68b5381c1dd1a32015e3%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/khronos-egl-4.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/language-tags/language-tags-0.3.2.crate",
+        "sha256": "d4345964bb142484797b161f473a503a434de77149dd8c7427788c6e13379388",
+        "dest": "cargo/vendor",
+        "dest-filename": "language-tags-0.3.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d4345964bb142484797b161f473a503a434de77149dd8c7427788c6e13379388%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/language-tags-0.3.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2938,6 +3046,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/num-bigint/num-bigint-0.2.6.crate",
+        "sha256": "090c7f9998ee0ff65aa5b723e4009f7b217707f1fb5ea551329cc4d6231fb304",
+        "dest": "cargo/vendor",
+        "dest-filename": "num-bigint-0.2.6.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22090c7f9998ee0ff65aa5b723e4009f7b217707f1fb5ea551329cc4d6231fb304%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/num-bigint-0.2.6",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/num-integer/num-integer-0.1.44.crate",
         "sha256": "d2cc698a63b549a70bc047073d2949cce27cd1c7b0a4a862d08a8031bc2801db",
         "dest": "cargo/vendor",
@@ -3103,6 +3224,31 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22c92d4ddb4bd7b50d730c215ff871754d0da6b2178849f8a2a2ab69712d0c073b%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/objc_id-0.1.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/object/object-0.26.0.crate",
+        "sha256": "c55827317fb4c08822499848a14237d2874d6f139828893017237e7ab93eb386",
+        "dest": "cargo/vendor",
+        "dest-filename": "object-0.26.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22c55827317fb4c08822499848a14237d2874d6f139828893017237e7ab93eb386%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/object-0.26.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/xampprocky/octocrab",
+        "commit": "c78edcd87fa5edcd5a6d0d0878b2a8d020802c40",
+        "dest": "cargo/vendor/octocrab"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/octocrab",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3285,6 +3431,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2282a5ca643c2303ecb740d506539deba189e16f2754040a42901cd8105d0282d0%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/pear_codegen-0.2.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/pem/pem-0.8.3.crate",
+        "sha256": "fd56cbd21fea48d0c440b41cd69c589faacade08c992d9a54e471b79d0fd13eb",
+        "dest": "cargo/vendor",
+        "dest-filename": "pem-0.8.3.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22fd56cbd21fea48d0c440b41cd69c589faacade08c992d9a54e471b79d0fd13eb%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/pem-0.8.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3640,6 +3799,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/pulldown-cmark/pulldown-cmark-0.8.0.crate",
+        "sha256": "ffade02495f22453cd593159ea2f59827aae7f53fa8323f756799b670881dcf8",
+        "dest": "cargo/vendor",
+        "dest-filename": "pulldown-cmark-0.8.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22ffade02495f22453cd593159ea2f59827aae7f53fa8323f756799b670881dcf8%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/pulldown-cmark-0.8.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/quick-xml/quick-xml-0.20.0.crate",
         "sha256": "26aab6b48e2590e4a64d1ed808749ba06257882b461d01ca71baeb747074a6dd",
         "dest": "cargo/vendor",
@@ -3990,10 +4162,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/sergiobenitez/rocket/tar.gz/693f4f9ee50057fc735e6e7037e6dee5b485ba10",
-        "sha256": "c14ead5afec069c209517bebc7927fec3fb117dbb7cc793d9cfb8d4a4c433535",
+        "type": "git",
+        "url": "https://github.com/sergiobenitez/rocket",
+        "commit": "693f4f9ee50057fc735e6e7037e6dee5b485ba10",
         "dest": "cargo/vendor/rocket"
     },
     {
@@ -4011,10 +4182,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/sergiobenitez/rocket/tar.gz/693f4f9ee50057fc735e6e7037e6dee5b485ba10",
-        "sha256": "c14ead5afec069c209517bebc7927fec3fb117dbb7cc793d9cfb8d4a4c433535",
+        "type": "git",
+        "url": "https://github.com/sergiobenitez/rocket",
+        "commit": "693f4f9ee50057fc735e6e7037e6dee5b485ba10",
         "dest": "cargo/vendor/rocket_codegen"
     },
     {
@@ -4032,10 +4202,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/sergiobenitez/rocket/tar.gz/693f4f9ee50057fc735e6e7037e6dee5b485ba10",
-        "sha256": "c14ead5afec069c209517bebc7927fec3fb117dbb7cc793d9cfb8d4a4c433535",
+        "type": "git",
+        "url": "https://github.com/sergiobenitez/rocket",
+        "commit": "693f4f9ee50057fc735e6e7037e6dee5b485ba10",
         "dest": "cargo/vendor/rocket_http"
     },
     {
@@ -4053,10 +4222,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/sergiobenitez/rocket/tar.gz/693f4f9ee50057fc735e6e7037e6dee5b485ba10",
-        "sha256": "c14ead5afec069c209517bebc7927fec3fb117dbb7cc793d9cfb8d4a4c433535",
+        "type": "git",
+        "url": "https://github.com/sergiobenitez/rocket",
+        "commit": "693f4f9ee50057fc735e6e7037e6dee5b485ba10",
         "dest": "cargo/vendor/rocket_sync_db_pools"
     },
     {
@@ -4074,10 +4242,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/sergiobenitez/rocket/tar.gz/693f4f9ee50057fc735e6e7037e6dee5b485ba10",
-        "sha256": "c14ead5afec069c209517bebc7927fec3fb117dbb7cc793d9cfb8d4a4c433535",
+        "type": "git",
+        "url": "https://github.com/sergiobenitez/rocket",
+        "commit": "693f4f9ee50057fc735e6e7037e6dee5b485ba10",
         "dest": "cargo/vendor/rocket_sync_db_pools_codegen"
     },
     {
@@ -4109,6 +4276,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/ron/ron-0.7.0.crate",
+        "sha256": "1b861ecaade43ac97886a512b360d01d66be9f41f3c61088b42cedf92e03d678",
+        "dest": "cargo/vendor",
+        "dest-filename": "ron-0.7.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%221b861ecaade43ac97886a512b360d01d66be9f41f3c61088b42cedf92e03d678%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/ron-0.7.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/rss/rss-1.10.0.crate",
         "sha256": "02e70d6ae72f8a4333af8ce9dce58942020528430eb0d46ee2fcb5e8d4d16377",
         "dest": "cargo/vendor",
@@ -4118,6 +4298,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2202e70d6ae72f8a4333af8ce9dce58942020528430eb0d46ee2fcb5e8d4d16377%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/rss-1.10.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/rustc-demangle/rustc-demangle-0.1.21.crate",
+        "sha256": "7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342",
+        "dest": "cargo/vendor",
+        "dest-filename": "rustc-demangle-0.1.21.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%227ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/rustc-demangle-0.1.21",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4434,6 +4627,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/serde_path_to_error/serde_path_to_error-0.1.7.crate",
+        "sha256": "d7868ad3b8196a8a0aea99a8220b124278ee5320a55e4fde97794b6f85b1a377",
+        "dest": "cargo/vendor",
+        "dest-filename": "serde_path_to_error-0.1.7.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d7868ad3b8196a8a0aea99a8220b124278ee5320a55e4fde97794b6f85b1a377%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/serde_path_to_error-0.1.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/serde_urlencoded/serde_urlencoded-0.7.0.crate",
         "sha256": "edfa57a7f8d9c1d260a549e7224100f6c43d43f9103e06dd8b4095a9b2b43ce9",
         "dest": "cargo/vendor",
@@ -4482,6 +4688,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22e51e73328dc4ac0c7ccbda3a494dfa03df1de2f46018127f60c693f2648455b0%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/signal-hook-registry-1.4.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/simple_asn1/simple_asn1-0.4.1.crate",
+        "sha256": "692ca13de57ce0613a363c8c2f1de925adebc81b04c923ac60c5488bb44abe4b",
+        "dest": "cargo/vendor",
+        "dest-filename": "simple_asn1-0.4.1.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22692ca13de57ce0613a363c8c2f1de925adebc81b04c923ac60c5488bb44abe4b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/simple_asn1-0.4.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4573,6 +4792,32 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22986c5b4a7bd4f50d4c51f81f844745535cb488360f9cf63293780b109b9295f3%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/smithay-clipboard-0.6.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/snafu/snafu-0.7.0.crate",
+        "sha256": "2eba135d2c579aa65364522eb78590cdf703176ef71ad4c32b00f58f7afb2df5",
+        "dest": "cargo/vendor",
+        "dest-filename": "snafu-0.7.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%222eba135d2c579aa65364522eb78590cdf703176ef71ad4c32b00f58f7afb2df5%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/snafu-0.7.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/snafu-derive/snafu-derive-0.7.0.crate",
+        "sha256": "7a7fe9b0669ef117c5cabc5549638528f36771f058ff977d7689deb517833a75",
+        "dest": "cargo/vendor",
+        "dest-filename": "snafu-derive-0.7.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%227a7fe9b0669ef117c5cabc5549638528f36771f058ff977d7689deb517833a75%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/snafu-derive-0.7.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5889,11 +6134,11 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/iced-rs/winit/tar.gz/fea65a7f852fb36956adc0b13b6647e25eec33ec",
-        "sha256": "3dade239d92c4448774266c5f4620d6e317bd0ca793620d596e85adfa2c159c1",
-        "dest": "cargo/vendor/winit"
+        "type": "git",
+        "url": "https://github.com/iced-rs/winit",
+        "commit": "fea65a7f852fb36956adc0b13b6647e25eec33ec",
+        "dest": "cargo/vendor/winit",
+        "disable-submodules": true
     },
     {
         "type": "file",
@@ -6053,7 +6298,7 @@
     },
     {
         "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//github.com/hecrj/iced%22%5D%0Agit%20%3D%20%22https%3A//github.com/hecrj/iced%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%222d65621a3b680457e689b93c800e74f726ffc175%22%0A%0A%5Bsource.%22https%3A//github.com/sergiobenitez/rocket%22%5D%0Agit%20%3D%20%22https%3A//github.com/sergiobenitez/rocket%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22693f4f9ee50057fc735e6e7037e6dee5b485ba10%22%0A%0A%5Bsource.%22https%3A//github.com/iced-rs/winit%22%5D%0Agit%20%3D%20%22https%3A//github.com/iced-rs/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22fea65a7f852fb36956adc0b13b6647e25eec33ec%22%0A",
+        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//github.com/hecrj/iced%22%5D%0Agit%20%3D%20%22https%3A//github.com/hecrj/iced%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%222d65621a3b680457e689b93c800e74f726ffc175%22%0A%0A%5Bsource.%22https%3A//github.com/xampprocky/octocrab%22%5D%0Agit%20%3D%20%22https%3A//github.com/xampprocky/octocrab%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22c78edcd87fa5edcd5a6d0d0878b2a8d020802c40%22%0A%0A%5Bsource.%22https%3A//github.com/sergiobenitez/rocket%22%5D%0Agit%20%3D%20%22https%3A//github.com/sergiobenitez/rocket%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22693f4f9ee50057fc735e6e7037e6dee5b485ba10%22%0A%0A%5Bsource.%22https%3A//github.com/iced-rs/winit%22%5D%0Agit%20%3D%20%22https%3A//github.com/iced-rs/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22fea65a7f852fb36956adc0b13b6647e25eec33ec%22%0A",
         "dest": "cargo",
         "dest-filename": "config"
     }

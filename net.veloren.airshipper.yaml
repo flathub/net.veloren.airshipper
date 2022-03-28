@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions : [
-  org.freedesktop.Sdk.Extension.rust-nightly
+  org.freedesktop.Sdk.Extension.rust-stable
 ]
 command: airshipper
 finish-args:
@@ -14,7 +14,7 @@ finish-args:
   - --share=ipc
   - --device=dri
 build-options : {
-  append-path : "/usr/lib/sdk/rust-nightly/bin",
+  append-path : "/usr/lib/sdk/rust-stable/bin",
   env : {
     "CARGO_HOME" : "/run/build/airshipper/cargo",
     "RUST_BACKTRACE" : "1"
@@ -34,8 +34,8 @@ modules:
       - install -D client/assets/net.veloren.airshipper.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: archive
-        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.6.0.tar.gz
-        sha256: d5d6975c511810398f1deb60bbb81ee02848f5c01e0da8e1e658dcfbc5a8df46
+        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.7.0.tar.gz
+        sha256: b0512568312096767e100f2eebe7871bceae9f2dd3c69fb45fe1e0301effa583
       - generated-sources.json
       - type: patch
         path: metainfo-screenshot-urls.patch
