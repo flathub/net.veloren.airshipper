@@ -14,16 +14,17 @@ finish-args:
   - --share=ipc
   - --device=dri
 build-options : {
-  append-path : "/usr/lib/sdk/rust-nightly/bin",
-  env : {
-    "CARGO_HOME" : "/run/build/airshipper/cargo",
-    "RUST_BACKTRACE" : "1"
-    }
+  append-path : "/usr/lib/sdk/rust-nightly/bin"
 }
 
 modules:
   - name : airshipper
     buildsystem : simple
+    build-options:
+      env : {
+        "CARGO_HOME" : "/run/build/airshipper/cargo",
+        "RUST_BACKTRACE" : "1"
+      }
     build-commands : 
       - cargo --offline fetch --manifest-path Cargo.toml 
       - cargo --offline build --bin airshipper --release 
