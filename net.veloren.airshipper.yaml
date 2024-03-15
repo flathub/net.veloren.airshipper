@@ -2,9 +2,6 @@ app-id: net.veloren.airshipper
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-sdk-extensions : [
-  org.freedesktop.Sdk.Extension.rust-nightly
-]
 command: airshipper
 finish-args:
   - --socket=fallback-x11
@@ -13,19 +10,47 @@ finish-args:
   - --share=network
   - --share=ipc
   - --device=dri
-build-options : {
-  append-path : "/usr/lib/sdk/rust-nightly/bin"
-}
+build-options:
+  append-path: "/app/sdk/rust-nightly/bin"
+cleanup:
+  - /sdk
 
 modules:
+  - name: rust
+    buildsystem: simple
+    sources:
+      - type: archive
+        only-arches:
+          - aarch64
+        dest: rust
+        url: https://static.rust-lang.org/dist/2024-01-15/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
+        sha256: 946ca47cb7797a94abf4b83b3410d62f17e47dca2bf1841b75ce36bcde72bb10
+      - type: archive
+        only-arches:
+          - x86_64
+        dest: rust
+        url: https://static.rust-lang.org/dist/2024-01-15/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
+        sha256: 6ae03811db0b812220fc5abec286fa41a51f946163f38e804820717b566f8e22
+    build-commands:
+      - cd rust && ./install.sh --prefix=/app/sdk/rust-nightly --without=rust-docs
+          --without=rust-docs-json-preview --disable-ldconfig --verbose
   - name : airshipper
     buildsystem : simple
+    sources:
+      - type: archive
+        url: "https://gitlab.com/veloren/airshipper/-/archive/v0.11.0/airshipper-v0.11.0.tar.gz"
+        sha256: 1371bea0dd63aea1478014ccfd299b557911843a5ba0284fa26f1ecbfbfa7b4b
+      - generated-sources.json
     build-options:
-      env : {
-        "CARGO_HOME" : "/run/build/airshipper/cargo",
-        "RUST_BACKTRACE" : "1"
-      }
-    build-commands : 
+      env:
+        CARGO_HOME: "/run/build/airshipper/cargo",
+        RUST_BACKTRACE: "1"
+    build-commands :
+      - ls -la .
+      - ls -la /app/sdk/rust-nightly/bin
+      - ls -la /run/build/airshipper/cargo
+      - cargo --version
+      - cat /run/build/airshipper/cargo/config
       - cargo --offline fetch --manifest-path Cargo.toml 
       - cargo --offline build --bin airshipper --release 
       - install -D -m 755 ./target/release/airshipper -t /app/bin/
@@ -33,10 +58,3 @@ modules:
       - install -D client/assets/net.veloren.airshipper.desktop -t /app/share/applications/
       - install -D client/assets/net.veloren.airshipper.png -t /app/share/icons/hicolor/256x256/apps/
       - install -D client/assets/net.veloren.airshipper.metainfo.xml -t /app/share/metainfo/
-    sources:
-      - type: archive
-        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.10.0.tar.gz
-        sha256: 96ef99b7be60d30286a960b391678f5b2ecd9dd9eb632413e6c5e48411eebd7d
-      - generated-sources.json
-      - type: patch
-        path: metainfo-screenshot-urls.patch
