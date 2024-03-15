@@ -25,7 +25,7 @@ modules:
         "CARGO_HOME" : "/run/build/airshipper/cargo",
         "RUST_BACKTRACE" : "1"
       }
-    build-commands : 
+    build-commands:
       - cargo --offline fetch --manifest-path Cargo.toml 
       - cargo --offline build --bin airshipper --release 
       - install -D -m 755 ./target/release/airshipper -t /app/bin/
@@ -35,8 +35,6 @@ modules:
       - install -D client/assets/net.veloren.airshipper.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: archive
-        url: https://github.com/veloren/Airshipper/archive/refs/tags/v0.10.0.tar.gz
-        sha256: 96ef99b7be60d30286a960b391678f5b2ecd9dd9eb632413e6c5e48411eebd7d
+        url: "https://gitlab.com/veloren/airshipper/-/archive/v0.11.0/airshipper-v0.11.0.tar.gz"
+        sha256: 1371bea0dd63aea1478014ccfd299b557911843a5ba0284fa26f1ecbfbfa7b4b
       - generated-sources.json
-      - type: patch
-        path: metainfo-screenshot-urls.patch
