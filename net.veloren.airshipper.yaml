@@ -49,11 +49,6 @@ modules:
         CARGO_HOME: "/run/build/airshipper/cargo",
         RUST_BACKTRACE: "1"
     build-commands :
-      - ls -la .
-      - ls -la /app/sdk/rust-nightly/bin
-      - ls -la /run/build/airshipper/cargo
-      - cargo --version
-      - cat /run/build/airshipper/cargo/config
       - cargo --offline fetch --manifest-path Cargo.toml 
       - cargo --offline build --bin airshipper --release 
       - install -D -m 755 ./target/release/airshipper -t /app/bin/
