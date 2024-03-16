@@ -17,6 +17,9 @@ cleanup:
 
 modules:
   - name: rust
+    build-options:
+      strip: false
+      no-debuginfo: true
     buildsystem: simple
     sources:
       - type: archive
