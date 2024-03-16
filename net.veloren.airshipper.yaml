@@ -14,7 +14,6 @@ build-options:
   append-path: "/app/sdk/rust-nightly/bin"
 cleanup:
   - /sdk
-
 modules:
   - name: rust
     build-options:
@@ -35,10 +34,9 @@ modules:
         url: https://static.rust-lang.org/dist/2024-01-15/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
         sha256: 6ae03811db0b812220fc5abec286fa41a51f946163f38e804820717b566f8e22
     build-commands:
-      - cd rust && ./install.sh --prefix=/app/sdk/rust-nightly --without=rust-docs
-          --without=rust-docs-json-preview --disable-ldconfig --verbose
-  - name : airshipper
-    buildsystem : simple
+      - cd rust && ./install.sh --prefix=/app/sdk/rust-nightly --without=rust-docs --without=rust-docs-json-preview --disable-ldconfig --verbose
+  - name: airshipper
+    buildsystem: simple
     sources:
       - type: archive
         url: "https://gitlab.com/veloren/airshipper/-/archive/v0.11.0/airshipper-v0.11.0.tar.gz"
@@ -50,9 +48,9 @@ modules:
       env:
         CARGO_HOME: "/run/build/airshipper/cargo"
         RUST_BACKTRACE: "1"
-    build-commands :
-      - cargo --offline fetch --manifest-path Cargo.toml 
-      - cargo --offline build --bin airshipper --release 
+    build-commands:
+      - cargo --offline fetch --manifest-path Cargo.toml
+      - cargo --offline build --bin airshipper --release
       - install -D -m 755 ./target/release/airshipper -t /app/bin/
     post-install:
       - install -D client/assets/net.veloren.airshipper.desktop -t /app/share/applications/
