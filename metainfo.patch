@@ -1,0 +1,12 @@
+--- airshipper/client/assets/net.veloren.airshipper.metainfo.xml	2024-03-16 17:47:30.650994102 +0530
++++ airshipper/client/assets/net.veloren.airshipper.metainfo.xml	2024-03-16 17:46:58.074330968 +0530
+@@ -5,7 +5,9 @@
+   
+   <name>Airshipper</name>
+   <summary>Airshipper is the official launcher for Veloren.</summary>
+-  
++  <developer id="net.veloren">
++    <name>Veloren Team</name>
++  </developer>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0-or-later</project_license>
