@@ -39,8 +39,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: "https://gitlab.com/veloren/airshipper/-/archive/v0.14.0/airshipper-v0.14.0.tar.gz"
-        sha256: 9ca4bae0d4e6f06de40d7fbd85b1b9f81277462f71cb806263be27ba594c2ce2
+        url: "https://gitlab.com/veloren/airshipper/-/archive/v0.15.0/airshipper-v0.15.0.tar.gz"
+        sha256: df5cbdbbbb631d5795eb67c9f035cb2cff03ea94f7bc2164f63ac22cdfbf25fa
       - generated-sources.json
     build-options:
       env:
