@@ -9,7 +9,11 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
   - --share=ipc
-  - --device=dri
+  # For Flatpak 1.14.x backwards compatibility
+  - --device=all
+  # Switch to these once the oldest supported Flatpak is >=1.15.6
+  #- --device=dri
+  #- --device=input
 build-options:
   append-path: "/app/sdk/rust-nightly/bin"
 cleanup:
